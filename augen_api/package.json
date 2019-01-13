@@ -1,0 +1,7 @@
+{
+  "name": "augen_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Le",
+  "license": "MIT"
+}
