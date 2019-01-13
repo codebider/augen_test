@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Daniel Le",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "sequelize": "node_modules/.bin/sequelize"
+  },
+  "dependencies": {
+    "sequelize": "^3.30.2",
+    "sequelize-cli": "^2.7.0"
+  }
 }
