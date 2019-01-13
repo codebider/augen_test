@@ -1,0 +1,12 @@
+[
+  {
+    "path": "customers/list",
+    "router": "customers",
+    "method": "get",
+    "middlewares": [
+      {
+        "name": "fixQuery"
+      }
+    ]
+  }
+]
