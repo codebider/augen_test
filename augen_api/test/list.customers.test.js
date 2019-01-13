@@ -106,6 +106,7 @@ describe('Search Tests', () => {
             })
             .end(function(err, res) {
                 expect(res).to.have.status(200);
+                console.log(res.body.pagination);
                 expect(res.body.pagination.total).to.equal(60);
                 expect(res.body.pagination.current_page).to.equal(4);
                 expect(res.body.pagination.next_page).to.equal(5);
