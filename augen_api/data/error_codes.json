@@ -1,0 +1,48 @@
+{
+  "400": {
+    "http": 400,
+    "message": "Bad request",
+    "description": "General error indicating that the request is invalid."
+  },
+  "401": {
+    "http": 401,
+    "message": "Unauthorized",
+    "description": "User unauthorized or token expired."
+  },
+  "200": {
+    "http": 200,
+    "message": "Validation Error",
+    "description": "The server fails to validate the data submission."
+  },
+
+  "403": {
+    "http": 403,
+    "message": "Access denied",
+    "description": "The user does not have the permission to access the resources."
+  },
+  "404": {
+    "http": 404,
+    "message": "URL Not Found",
+    "description": "URL Not Found"
+  },
+  "405": {
+    "http": 405,
+    "message": "Method Not Allowed",
+    "description": "Method you have called is not supported for the invoked API."
+  },
+  "429": {
+    "http": 429,
+    "message": "Rate Limit Exceeded",
+    "description": "Rate Limit Exceeded."
+  },
+  "500": {
+    "http": 500,
+    "message": "Internal error",
+    "description": "Internal error"
+  },
+  "409": {
+    "http": 409,
+    "message": "Conflict",
+    "description": "Conflict."
+  }
+}
